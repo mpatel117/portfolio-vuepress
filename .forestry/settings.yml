@@ -16,6 +16,8 @@ sections:
   match: "**/*"
   templates:
   - works
+- type: heading
+  label: Data
 - type: directory
   path: portfolio/journal
   label: Journal
@@ -23,8 +25,6 @@ sections:
   match: "**/[!index]*"
   templates:
   - journal
-- type: heading
-  label: Data
 - type: document
   path: portfolio/config.json
   label: Site Config
